@@ -57,7 +57,7 @@ public:
 
 private:
   int length;
-  int arr[MAX_ITEMS];
+  int arr[MAX_ITEMS]{};
   int currentPos;
 };
 
